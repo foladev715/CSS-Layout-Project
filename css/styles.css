@@ -1,0 +1,201 @@
+/**************************************Customized CSS Boilerplate**********************************/
+* {
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+:root {
+  --primary-1: snow;
+}
+
+body {
+  margin: 20px 150px;
+  background-color: var(--primary-1);
+}
+
+img {
+  max-width: 100%;
+}
+
+/********************************************Tag Selectors*****************************************/
+h1 {
+  font-size: 2.125rem;
+  color: #00b39f;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-family: Work Sans, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #00b39f;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-family: Work Sans, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1.625rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  font-family: Work Sans, Arial, sans-serif;
+}
+
+footer {
+  position: absolute;
+  top: 2900px;
+  text-align: center;
+}
+
+hr {
+  position: absolute;
+  top: 2870px;
+  left: 0;
+  width: 100%;
+  color: F6F6F6;
+  border-style: ridge none none none;
+}
+
+a {
+  text-decoration: none;
+}
+/*******************************************Class Selectors****************************************/
+
+.section_1_logo {
+  position: absolute;
+  width: 30%;
+  height: 30px;
+  left: 80px;
+  top: 20px;
+}
+
+.section_1 h1 {
+  position: absolute;
+  top: 150px;
+  left: 280px;
+  font-size: 2.125rem;
+  color: #00b39f;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-family: Work Sans, Arial, sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  right: 150px;
+  top: 20px;
+}
+
+.docplanner-brand-image {
+  position: absolute;
+  margin: 80px 480px;
+  height: 40px;
+}
+
+.section_2_left_side {
+  position: absolute;
+  width: 35%;
+  top: 250px;
+  left: 150px;
+}
+
+.section_2_right_side {
+  position: absolute;
+  width: 35%;
+  top: 250px;
+  right: 150px;
+}
+
+.section_3_left_side {
+  position: absolute;
+  width: 20%;
+  top: 400px;
+  left: 150px;
+  background-color: #5bc9b2;
+}
+
+.section_3_middle {
+  position: absolute;
+  width: 20%;
+  top: 400px;
+  left: 500px;
+  background-color: #618edc;
+}
+
+.section_3_right_side {
+  position: absolute;
+  width: 20%;
+  top: 400px;
+  left: 860px;
+  background-color: #1b2832;
+}
+
+.section_4_left_side {
+  position: absolute;
+  width: 20%;
+  top: 620px;
+  left: 150px;
+}
+
+.section_4_right_side {
+  position: absolute;
+  width: 52%;
+  top: 650px;
+  left: 480px;
+  word-spacing: 52px;
+}
+.section_5_left_side {
+  position: absolute;
+  width: 30%;
+  top: 850px;
+  left: 150px;
+}
+
+.section_5_middle {
+  position: absolute;
+  width: 20%;
+  top: 900px;
+  left: 580px;
+}
+.section_5_right_side {
+  position: absolute;
+  width: 20%;
+  top: 860px;
+  left: 850px;
+}
+
+.section_6 {
+  position: absolute;
+  top: 1450px;
+  left: 400px;
+  width: 40%;
+  text-align: center;
+}
+
+.section_7 img {
+  width: 309px;
+  height: 278px;
+}
+
+.section_7 {
+  position: absolute;
+  top: 1700px;
+}
+
+.section_7 figure {
+  display: inline-block;
+  margin: 16px 10px;
+}
+
+.section_8 {
+  position: absolute;
+  top: 2720px;
+  text-align: center;
+  left: 400px;
+}
+
+.section_8 h1 {
+  color: #000;
+  text-align: center;
+}
